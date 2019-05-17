@@ -1,18 +1,23 @@
-title: OpenDoc Template #----> Required
+title: On Staff Work #----> Required
 remote_theme: opendocsg/opendoc-theme@v2
 timezone: Asia/Singapore
-repository: opendocsg/opendoc-template #----> Required
+repository: opendocsg/opendoc-on-staff-work #----> Required
 plugins:
   - jekyll-include-cache
 baseurl: ''
 server_PROD: https://search.opendoc.sg
 server_DEV: https://search-staging.opendoc.sg
 google_analytics:  #----> Optional, Google analytics ID
-order: #----> Optional, order of documents
-  - README.md
-  - sample.md
+order:
+  - Author.md
+  - Introduction.md
+  - Part-1.md
+  - Part-2.md
+  - Part-3.md
+  - Conclusion.md
+  - Editorial.md
 styling_options:
-  primary_brand_color: '#444'  #----> Optional, theme color
+  primary_brand_color: '#5faaff'
   logo_path: /assets/logo.png  #----> Optional, path to logo
   opendoc_logo_path: /assets/images/logo-full.png
-  feedback_url:  #----> Optional, feedback url
+  feedback_url:  https://www.mindef.gov.sg/oms/imindef/publications/pointer/header/contact_us.html
